@@ -7,6 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
     background-attachment: fixed;
+    font-size: 20px;
 }
 
 .navbar ul{
@@ -46,11 +47,36 @@ header h1{
 
 .Info h1{
     text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 .Info{
     background: rgba(255, 255, 255, 0.678);
     margin: 20px;
-    padding: 30px;
+    padding: 70px;
     border-radius:10%;
+}
+
+.linka{
+    text-align: center;
+}
+
+.linka a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 0;
+}
+
+
+.imagen{
+    max-width: 350px;
+    width:100%;
+    transition: transform 0.2s;
+}
+
+.imagen:hover{
+transform: scale(1.5);
 }
