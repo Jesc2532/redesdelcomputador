@@ -80,3 +80,11 @@ header h1{
 .imagen:hover{
 transform: scale(1.5);
 }
+
+.imagen2{
+    transition: transform 0.2s;
+}
+
+.imagen2:hover{
+transform: scale(1.5);
+}
